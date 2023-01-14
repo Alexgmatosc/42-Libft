@@ -1,32 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isprint.c                                       :+:      :+:    :+:   */
+/*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: alematos <alematos@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/12 10:32:27 by alematos          #+#    #+#             */
-/*   Updated: 2023/01/12 10:55:42 by marvin           ###   ########.fr       */
+/*   Created: 2023/01/14 11:23:43 by alematos          #+#    #+#             */
+/*   Updated: 2023/01/14 13:22:11 by alematos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isprint(char c)
+int ft_isdigit(char c)
 {
-    if (c >= 32 && c <= 126)
+    if (c >= '0' && c <= '9')
         return (1);
-    else
-        return (0);
-}
-
-/*
-
-int main(void)
-{
-    char a;
-
-    a = '\n';
-    printf("%i",ft_isprint(a));
     return(0);
-
 }
-*/
+/*
+#include <stdio.h>
+
+int main (void)
+{
+    char c;
+
+    c = '5';
+    printf("%i",ft_isdigit(c));
+    return (0);
+}
+/*:
