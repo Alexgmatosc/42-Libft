@@ -19,11 +19,18 @@
 #include <stdio.h>
 #include <string.h>
 
+typedef struct		s_list
+{
+	void			*content;
+	size_t			content_size;
+	struct s_list	*next;
+}					t_list;
+
 int	ft_isalpha(char c);
 int ft_isanum(char c);
 int ft_isdigit(char c);
 int ft_isprint(char c);
-size_t	ft_strlen(char	*str)
+size_t  ft_strlen(const char *str);
 
 
 

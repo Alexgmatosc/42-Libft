@@ -37,3 +37,7 @@ clean:
 	rm -f $(OBJECTS)
 # Construye la libreria
 all: $(LIBRARY)
+
+re: fclean all
+
+.PHONY: all, clean, fclean, re
