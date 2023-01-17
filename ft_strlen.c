@@ -3,21 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alematos <alematos@student.42madrid>       +#+  +:+       +#+        */
+/*   By: alematos <alematos@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 14:40:32 by alematos          #+#    #+#             */
-/*   Updated: 2022/11/08 15:06:04 by alematos         ###   ########.fr       */
+/*   Updated: 2023/01/17 12:57:09 by alematos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(char	*str)
+#include "libft.h"
+
+size_t	ft_strlen(char	*str)
 {
-	int	i;
+	size_t	i;
 
 	i = 0;
 	while (str[i] != '\0')
-	{
 		i++;
-	}
 	return (i);
 }
