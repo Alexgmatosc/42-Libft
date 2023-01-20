@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isanum.c                                        :+:      :+:    :+:   */
+/*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alematos <alematos@student.42madrid>       +#+  +:+       +#+        */
+/*   By: alematos <alematos@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/14 15:27:05 by alematos          #+#    #+#             */
-/*   Updated: 2023/01/14 15:27:09 by alematos         ###   ########.fr       */
+/*   Updated: 2023/01/20 23:36:14 by alematos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,15 +16,3 @@ int ft_isanum(char c)
         return (1);
     return(0);
 }
-/*
-#include <stdio.h>
-
-int main (void)
-{
-    char c;
-
-    c = 'H';
-    printf("%i",ft_isanum(c));
-    return (0);
-}
-/*
