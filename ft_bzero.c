@@ -1,33 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strncmp.c                                       :+:      :+:    :+:   */
+/*   t_bzero.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: alematos <alematos@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/10 12:53:13 by alematos          #+#    #+#             */
-/*   Updated: 2023/01/21 14:27:20 by alematos         ###   ########.fr       */
+/*   Created: 2023/01/21 13:13:52 by alematos          #+#    #+#             */
+/*   Updated: 2023/01/21 13:43:58 by alematos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_strncmp(char *s1, char *s2, unsigned int n)
+void	ft_bzero(void *s, size_t n)
 {
-	unsigned int	i;
+    size_t	i;
+    char	*str;
 
-	i = 0;
-	while ((s1[i] != '\0' || s2[i] != '\0') && i < n)
-	{
-		if (s1[i] > s2[i])
-		{
-			return (1);
-		}
-		else if (s1[i] < s2[i])
-		{
-			return (-1);
-		}
-		i++;
-	}
-	return (0);
+    i = 0;
+    str = (char *)s;
+    while (i < n)
+    {
+        str[i] = 0;
+        i++;
+    }
 }
