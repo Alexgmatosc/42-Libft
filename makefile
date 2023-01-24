@@ -16,7 +16,7 @@
 LIBRARY = libft.a
 
 # Codigo fuente de la libreria
-SOURCES = ft_bzero.c ft_isalnum.c ft_isdigit.c ft_strlen.c ft_strncmp.c ft_isacsii.c ft_isalpha.c ft_isprint.c
+SOURCES = ft_bzero.c ft_isalnum.c ft_isdigit.c ft_strlen.c ft_strncmp.c ft_isacsii.c ft_isalpha.c ft_isprint.c ft_memcpy.c ft_tolower.c ft_toupper.c
 # Cabecera de lia libreia
 HEADERS = libft.h
 
