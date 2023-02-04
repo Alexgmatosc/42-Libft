@@ -6,13 +6,14 @@
 /*   By: alematos <alematos@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/14 11:23:43 by alematos          #+#    #+#             */
-/*   Updated: 2023/01/27 23:03:32 by alematos         ###   ########.fr       */
+/*   Updated: 2023/02/04 15:42:59 by alematos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isdigit(char c)
+
+int	ft_isdigit(int c)
 {
-    if (c >= '0' && c <= '9')
-        return(1);
-    return(0);
+	if 			(c >= '0' && c <= '9')
+				return (1);
+	return (0);
 }
