@@ -13,9 +13,9 @@
 #include "libft.h"
 
 char	*ft_strrchr(const char *str, int c)
-{   
-	char *str2;
-	int i;
+{
+	char	*str2;
+	int		i;
 
 	str2 = (char *)str;
 	i = ft_strlen(str);

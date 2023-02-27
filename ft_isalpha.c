@@ -6,10 +6,9 @@
 /*   By: alematos <alematos@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/13 19:35:14 by alematos          #+#    #+#             */
-/*   Updated: 2023/02/04 15:41:45 by alematos         ###   ########.fr       */
+/*   Updated: 2023/02/22 18:57:09 by alematos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 int	ft_isalpha(int c)
 {

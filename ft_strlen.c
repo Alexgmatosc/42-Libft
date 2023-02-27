@@ -6,7 +6,7 @@
 /*   By: alematos <alematos@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 14:40:32 by alematos          #+#    #+#             */
-/*   Updated: 2023/01/21 13:55:33 by alematos         ###   ########.fr       */
+/*   Updated: 2023/02/22 20:18:25 by alematos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 size_t	ft_strlen(const char *str)
 {
-	size_t i;
+	size_t	i;
 
 	i = 0;
 	while (str[i] != '\0')

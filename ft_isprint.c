@@ -6,26 +6,26 @@
 /*   By: alematos <alematos@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/12 10:32:27 by alematos          #+#    #+#             */
-/*   Updated: 2023/02/04 16:08:59 by alematos         ###   ########.fr       */
+/*   Updated: 2023/02/22 18:59:03 by alematos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isprint(int c)
+int	ft_isprint(int c)
 {
-    if (c >= 32 && c <= 126)
-        return(1);
-    return(0);
+	if (c >= 32 && c <= 126)
+		return (1);
+	return (0);
 }
 
 /*
 
 int main(void)
 {
-    char a;
+	char a;
 
-    a = '\n';
-    printf("%i",ft_isprint(a));
-    return(0);
+	a = '\n';
+	printf("%i",ft_isprint(a));
+	return(0);
 
 }
 */
